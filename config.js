@@ -1,7 +1,7 @@
 // ====== EDIT DI SINI SAJA ======
 const CONFIG = {
   // boleh satu alamat, atau beberapa (dicoba berurutan). Contoh link: music: ["https://situsmu.com/lagu.mp3", "assets/backsound.mp3"],
-  music: "main/backsound.mp3",   // lagu utama, mulai di teks "You look so pretty"
+  music: "root/backsound.mp3",   // lagu utama, mulai di teks "You look so pretty"
   volume: 0.7,
   musicStart: 13.0,   // detik di lagu tempat musik mulai (supaya pas dengan teks pertama seperti di video)
   musicLead: 600,     // ms musik jalan dulu sebelum kata pertama muncul
