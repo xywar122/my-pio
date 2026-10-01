@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy National Girlfriend Day</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="grid"></div>
+<canvas id="fx"></canvas>
+<button id="tapmusic" style="display:none">🎵 ketuk untuk memutar musik</button>
+<button id="mute" aria-label="musik">🔊</button>
+
+<section class="scene on" id="s1">
+  <small id="hSmall"></small><h1 id="hTitle"></h1><p id="hSub"></p>
+  <div id="board"></div><em id="hHint"></em>
+</section>
+
+<section class="scene" id="s2"><div id="bigheart">❤</div></section>
+
+<section class="scene" id="s3"><h2 id="lyric" class="lyr"></h2></section>
+
+<section class="scene" id="s4">
+  <div id="stage"></div>
+  <div id="finale">
+    <h2 id="endTitle" class="words"></h2>
+    <p id="endText"></p>
+    <button id="again">ulangi ♥</button>
+  </div>
+  <div id="quote"><p id="quoteText"></p></div>
+</section>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
